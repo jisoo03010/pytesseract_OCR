@@ -12,7 +12,7 @@ import numpy as np
 
 def plt_imshow(title='image', img=None, figsize=(8 ,5)):
     plt.figure(figsize=figsize)
- 
+#
     if type(img) == list:
         if type(title) == list:
             titles = title
